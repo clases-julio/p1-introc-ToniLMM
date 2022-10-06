@@ -2,7 +2,8 @@
 File: ejercicio6.cpp
 Author: Toni Mari
 Date: 28/09/2022
-Goal: 
+Goal: This program shows the pattern of a chessboard.
+It uses as few instructions as posible
 ---------------------------------------------------*/
 
 #include <iostream>

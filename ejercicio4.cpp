@@ -2,7 +2,8 @@
 File: ejercicio4.cpp
 Author: Toni Mari
 Date: 28/09/2022
-Goal: 
+Goal: This program receives 3 integer numbers and it prints
+the sum, the average, the product, the smallest and the biggest of them
 ---------------------------------------------------*/
 #include <iostream>
 int main() {
@@ -10,7 +11,7 @@ int num1;
 int num2;
 int num3;
 int sum;
-int prom;
+int average;
 int mult;
 int max;
 int min;
@@ -20,8 +21,8 @@ std::cin >> num1 >> num2 >> num3;
 sum = num1 + num2 + num3;
 std::cout << "La suma es " << sum << std::endl;
 
-prom = (num1 + num2 + num3) / 3;
-std::cout << "El promedio es " << prom << std::endl;
+average = (num1 + num2 + num3) / 3;
+std::cout << "El promedio es " << average << std::endl;
 
 mult = num1 * num2 * num3;
 std::cout << "El producto es " << mult << std::endl;

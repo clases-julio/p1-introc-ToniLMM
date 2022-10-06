@@ -2,7 +2,9 @@
 File: ejercicio5.cpp
 Author: Toni Mari
 Date: 28/09/2022
-Goal: 
+Goal: This program receives the radio of the circle and it prints
+the diameter, the circumference and the area of the circle with the radio 
+and the pi given
 ---------------------------------------------------*/
 #include <iostream>
 #include <math.h>

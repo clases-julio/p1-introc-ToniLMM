@@ -2,7 +2,8 @@
 File: ejercicio7.cpp
 Author: Toni Mari
 Date: 28/09/2022
-Goal: 
+Goal: This program receives an integer number of 5 digits and it prints
+every digit of the number separated with 3 spaces between them
 ---------------------------------------------------*/
 
 #include <iostream>

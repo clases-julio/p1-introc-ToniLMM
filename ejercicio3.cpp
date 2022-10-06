@@ -2,7 +2,8 @@
 File: ejercicio3.cpp
 Author: Toni Mari
 Date: 28/09/2022
-Goal: 
+Goal: In this program the user writes 2 integer numbers and the program
+prints the bigger number or if they are the same
 ---------------------------------------------------*/
 #include <iostream>
 int main() {

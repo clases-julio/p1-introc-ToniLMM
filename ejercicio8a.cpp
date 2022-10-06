@@ -2,7 +2,8 @@
 File: ejercicio8a.cpp
 Author: Toni Mari
 Date: 28/09/2022
-Goal: 
+Goal: This program calculates the factorial of the non negative 
+integer number written by the user
 ---------------------------------------------------*/
 
 #include <iostream>
@@ -16,7 +17,7 @@ int i;
 factorial = 1;
 i = 1;
 
-cout <<"Write a non negative natural number: ";
+cout <<"Write a non negative integer number: ";
 cin >> numero;
 
 while(i < numero){
