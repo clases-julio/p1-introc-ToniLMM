@@ -10,7 +10,7 @@ using namespace std;
 int main() {
 int radio;
 float diam;
-float circ;
+float circum;
 float area;
 float pi;
 
@@ -22,8 +22,8 @@ cin >> radio;
 diam =  radio * 2;
 cout << "The diameter of the circle is " << diam << endl;
 
-circ =  2 * pi * radio;
-cout << "The circumference of the circle is " << circ << endl;
+circum =  2 * pi * radio;
+cout << "The circumference of the circle is " << circum << endl;
 
 area =  pi * pow(radio, 2);
 cout << "The area of the circle is " << area << endl;
