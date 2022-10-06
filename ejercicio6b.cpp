@@ -1,11 +1,14 @@
 /*---------------------------------------------------
-File: ejercicio2a.cpp
+File: ejercicio6.cpp
 Author: Toni Mari
 Date: 28/09/2022
 Goal: 
 ---------------------------------------------------*/
+
 #include <iostream>
+using namespace std;
 int main() {
-std::cout << "1 2 3 4\n";
+
+
 return 0;
 }
