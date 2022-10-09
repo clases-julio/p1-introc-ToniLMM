@@ -10,7 +10,7 @@ It uses as few instructions as posible
 using namespace std;
 int main() {
 
-for(int i=0; i < 8; i++) {
+for(int i=0; i < 4; i++) {
     cout << "* * * * * * * *\n";
     cout << " * * * * * * * *\n";
 }

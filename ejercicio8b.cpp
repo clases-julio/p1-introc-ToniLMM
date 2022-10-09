@@ -21,6 +21,7 @@ int main() {
         i++;
         factorial *= i;
     }
+    
     e = (numerador / denominador);
     cout << "The value of e is: " << e << endl;
 
