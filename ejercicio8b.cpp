@@ -2,7 +2,9 @@
 File: ejercicio8b.cpp
 Author: Toni Mari
 Date: 28/09/2022
-Goal: 
+Goal: this program shows how to estimate the value of the constant
+"e" using a special formula where the user has to enter the desired
+precision
 ---------------------------------------------------*/
 #include <iostream>
 #include <math.h>

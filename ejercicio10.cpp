@@ -2,7 +2,8 @@
 File: ejercicio10.cpp
 Author: Toni Mari
 Date: 28/09/2022
-Goal: 
+Goal: This program shows how to print a rhombus depending of the
+number of "*" that the user puts in the input:
 ---------------------------------------------------*/
 #include <iostream>
 using namespace std;
