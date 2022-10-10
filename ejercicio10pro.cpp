@@ -2,7 +2,9 @@
 File: ejercicio10.cpp
 Author: Toni Mari
 Date: 28/09/2022
-Goal: 
+Goal: This program shows how to print a rhombus depending on the number
+of rows that the user puts in the input (from top to bottom), it should be an odd number 
+between 1 and 19
 ---------------------------------------------------*/
 #include <iostream>
 #include <cmath>
