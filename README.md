@@ -10,7 +10,7 @@ Los ejercicios de esta práctica estan orientados a obtener los conocimientos ba
 
 ## 1.Resumen de los ejercicios
 
-##### Ejercicio 1
+#### Ejercicio 1
 
 Escribe un programa que pida al usuario que escriba dos números, que obtenga los números del usuario e imprima la suma, producto, diferencia y cociente de los números.
 
@@ -49,7 +49,7 @@ div = num1 / num2;
 std::cout << "The total of " << num1 << "/" << num2 << " is " << div << std::endl;
 ``` 
 
-##### Ejercicio 2
+#### Ejercicio 2
 
 Escribe un programa que imprima los números del 1 al 4 en la misma lı́nea, con cada par de números adyacentes separado por un espacio; esto es: 1 2 3 4. Haz esto de varias formas:
 
@@ -77,7 +77,7 @@ std::cout << "3 ";
 std::cout << "4 ";
 ```  
 
-##### Ejercicio 3
+#### Ejercicio 3
 
 Escribe un programa que pida al usuario que escriba dos enteros, que obtenga los números del usuario e imprima el número más grande, seguido de la expresión es más grande. Y, si los números son iguales, que imprima el mensaje Estos números son iguales.
 
@@ -99,7 +99,7 @@ else
     }
 ``` 
 
-##### Ejercicio 4
+#### Ejercicio 4
 
 Escribe un programa que reciba tres enteros del teclado e imprima la suma, promedio, producto, menor y mayor de esos números. El diálogo de la pantalla debe aparecer de la siguiente manera:
 Introduzca tres enteros distintos: 13 27 14
@@ -130,7 +130,7 @@ else if(num3>=num2){
 }
 ``` 
 
-##### Ejercicio 5
+#### Ejercicio 5
 
 Escribe un programa que lea el radio de un cı́rculo como un número entero y que imprima su diámetro, circunferencia y área. Usa el valor constante 3,14159 para π. Realiza todos los cálculos en instrucciones de salida.
 
@@ -151,9 +151,11 @@ area =  pi * pow(radio, 2);
 cout << "The area of the circle is " << area << endl;
 ``` 
 
-##### Ejercicio 6
+#### Ejercicio 6
 
 Escribe una aplicación que muestre un patrón de tablero de ajedrez como el que se
+
+
 muestra a continuación. Hazlo primero empleando ocho instrucciones de salida (cout), y
 después hazlo intentando utilizar el menor número de instrucciones posible.
 
@@ -180,7 +182,7 @@ for(int i=0; i < 4; i++) {
 }
 ``` 
 
-##### Ejercicio 7
+#### Ejercicio 7
 
 Escribe un programa que reciba como entrada un número entero de cinco dı́gitos, que
 separe ese número en sus dı́gitos individuales y los imprima, cada uno separado de los demás
@@ -199,7 +201,7 @@ cout << num1 / 10000 << "   " << num1 % 10000 / 1000 <<"   "
 << num1 % 10 << endl;
 ``` 
 
-##### Ejercicio 8
+#### Ejercicio 8
 
 El factorial de un entero n no negativo se escribe como n! (n factorial) y se define de la siguiente manera: n! = n(n–1)(n–2)...1 (para valores de n mayores o iguales a 1) y n! = 1 (para n = 0 o n = 1). Por ejemplo, 5! = 54321, que es 120. Usa instrucciones while en cada uno de los siguientes casos:
 
@@ -257,7 +259,7 @@ while(i <= n){
     }
 ``` 
 
-##### Ejercicio 9
+#### Ejercicio 9
 
 Calcula el valor de π a partir de la serie infinita: π = 4 − 43 + 54 − 47 + 94 − 11 una tabla que muestre el valor aproximado de π, después de cada uno de los primeros 1000 términos de esta serie.
 
@@ -271,7 +273,7 @@ while(x < iteraciones) {
     op *= -1;
 ``` 
 
-##### Ejercicio 10
+#### Ejercicio 10
 
 Escribe un programa que imprima la siguiente figura de rombo. Puedes utilizar instruc-
 ciones de salida que impriman un solo asterisco (*) o un solo espacio en blanco. Maximiza el
@@ -302,11 +304,12 @@ int n = 0, ast = 0, esp = 0;
         cout << endl;
 ``` 
 
-##### Ejercicio 10pro
+#### Ejercicio 10pro
 
 Bonus: haz una mejora del programa (ejercicio10pro.cpp) para que lea un número impar en el rango de 1 a 19, correspondiente al número de filas que configuran el rombo, y adespués muestre un rombo del tamaño apropiado.
 
 ```c++
+
 while(n < 1 || n > 19) {
         cout << "Error, the number must be between 1 and 19: ";
         cin >> n;
