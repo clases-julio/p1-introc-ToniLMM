@@ -157,14 +157,14 @@ Escribe una aplicación que muestre un patrón de tablero de ajedrez como el que
 muestra a continuación. Hazlo primero empleando ocho instrucciones de salida (cout), y
 después hazlo intentando utilizar el menor número de instrucciones posible.
 
- "* * * * * * * *"
-  "* * * * * * * *"
- "* * * * * * * *"
-  "* * * * * * * *"
- "* * * * * * * *"
-  "* * * * * * * *"
- "* * * * * * * *"
-  "* * * * * * * *"
+##### * * * * * * * *
+#####  * * * * * * * *
+##### * * * * * * * *
+#####  * * * * * * * *
+##### * * * * * * * *
+#####  * * * * * * * *
+##### * * * * * * * *
+#####  * * * * * * * *
 
 a)
 
