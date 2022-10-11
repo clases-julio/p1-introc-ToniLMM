@@ -16,6 +16,7 @@ int main() {
     cout << "How many rows you want (number between 1 and 19 and odd)? ";
     cin >> n;
 
+    //Detecta error si el usuario pone un numero mayor o menor a 19 y tambien si es un numero par
     while(n < 1 || n > 19) {
         cout << "Error, the number must be between 1 and 19: ";
         cin >> n;
@@ -45,5 +46,8 @@ int main() {
             cout << "*";
         }
         cout << endl;
-        }
     }
+}
+
+/*OBSERVACIONES: solo detecta el error de poner un numero mayor a 19 si lo cometes el primero si primero pones un numero 
+par y luego un numero un numero mayor o menor a 19 y es impar el codigo funciona sin detectar el error*/

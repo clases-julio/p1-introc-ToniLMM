@@ -15,6 +15,7 @@ int num1;
 cout << "Write an integer number of 5 digits: ";
 cin >> num1;
 
+//detecta error si el usuario pone un numero mayor o menor a 5 cifras
 while(num1 >= 100000 || num1 <= 9999) {
     cout << "Write an integer number of 5 digits please: ";
     cin >> num1;
