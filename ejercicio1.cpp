@@ -22,6 +22,12 @@ std::cin >> num1;
 std::cout << "Write the second one: ";
 std::cin >> num2;
 
+//si el segundo numero es igual a 0 te lo vuelve a pedir ya que no se puede dividir por 0
+while(num2 == 0) {
+    std::cout << "You can't divide by 0 write the second number again: ";
+    std::cin >> num2;
+}
+
 //calcula la suma
 sum = num1 + num2;
 std::cout << "The total of " << num1 << "+" << num2 << " is " << sum << std::endl;

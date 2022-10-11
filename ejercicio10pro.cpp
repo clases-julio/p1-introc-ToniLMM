@@ -49,5 +49,5 @@ int main() {
     }
 }
 
-/*OBSERVACIONES: solo detecta el error de poner un numero mayor a 19 si lo cometes el primero si primero pones un numero 
+/*OBSERVACIONES: solo detecta el error de poner un numero mayor o menor a 19 si lo cometes el primero si primero pones un numero 
 par y luego un numero un numero mayor o menor a 19 y es impar el codigo funciona sin detectar el error*/

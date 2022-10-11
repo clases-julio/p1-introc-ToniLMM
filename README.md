@@ -14,7 +14,7 @@ Los ejercicios de esta práctica estan orientados a obtener los conocimientos ba
 
 Escribe un programa que pida al usuario que escriba dos números, que obtenga los números del usuario e imprima la suma, producto, diferencia y cociente de los números.
 
-Observaciones: el programa da error cuando divide entre 0. Para arreglar que funcionase con numeros decimales he puesto float en las variables.
+Observaciones: Para que el programa diera como resultado numeros decimales he puesto float en las variables. Además he puesto un error cuando el segundo número es 0 ya que no se puede dividir algo entre 0
 
 ```c++
 int main() {
@@ -157,15 +157,6 @@ Escribe una aplicación que muestre un patrón de tablero de ajedrez como el que
 muestra a continuación. Hazlo primero empleando ocho instrucciones de salida (cout), y
 después hazlo intentando utilizar el menor número de instrucciones posible.
 
-##### * * * * * * * *
-#####  * * * * * * * *
-##### * * * * * * * *
-#####  * * * * * * * *
-##### * * * * * * * *
-#####  * * * * * * * *
-##### * * * * * * * *
-#####  * * * * * * * *
-
 a)
 
 ```c++
@@ -286,16 +277,6 @@ Escribe un programa que imprima la siguiente figura de rombo. Puedes utilizar in
 ciones de salida que impriman un solo asterisco (*) o un solo espacio en blanco. Maximiza el
 uso de la repetición (con instrucciones for anidadas), y minimiza el número de instrucciones
 de salida.
-     *
-    ***
-   *****
-  *******
- *********
-  *******
-   *****
-    ***
-     *
-
 
 ```c++
 int n = 0, ast = 0, esp = 0;
