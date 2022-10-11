@@ -157,14 +157,14 @@ Escribe una aplicación que muestre un patrón de tablero de ajedrez como el que
 muestra a continuación. Hazlo primero empleando ocho instrucciones de salida (cout), y
 después hazlo intentando utilizar el menor número de instrucciones posible.
 
-"* * * * * * * *
-  * * * * * * * *
- * * * * * * * *
-  * * * * * * * *
- * * * * * * * *
-  * * * * * * * *
- * * * * * * * *
-  * * * * * * * *"
+ "* * * * * * * *"
+  "* * * * * * * *"
+ "* * * * * * * *"
+  "* * * * * * * *"
+ "* * * * * * * *"
+  "* * * * * * * *"
+ "* * * * * * * *"
+  "* * * * * * * *"
 
 a)
 
@@ -194,7 +194,7 @@ for(int i=0; i < 4; i++) {
 Escribe un programa que reciba como entrada un número entero de cinco dı́gitos, que
 separe ese número en sus dı́gitos individuales y los imprima, cada uno separado de los demás
 por tres espacios. Por ejemplo, si el usuario escribe el número 31250, el programa debe
-imprimir:3 1 2 5 0.
+imprimir: 3 1 2 5 0.
 
 
 ```c++
