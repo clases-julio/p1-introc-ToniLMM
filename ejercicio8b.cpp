@@ -38,4 +38,5 @@ int main() {
                 i += 1;
         } 
         cout << "The estimated value for e is: " << e << endl;
+    return 0;
 }
